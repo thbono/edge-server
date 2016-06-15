@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: edge-server
+  cloud:
+    config:
+      uri: http://config.dev.unicoob.local
+      enabled: true
