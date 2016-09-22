@@ -3,5 +3,5 @@ spring:
     name: edge-server
   cloud:
     config:
-      uri: http://config.dev.unicoob.local
+      uri: ${CONFIG_SERVER_URL:http://config.unicoob.local}
       enabled: true
